@@ -1,0 +1,23 @@
+version: '3.1'
+
+services:
+  mariadb_marvel_api:
+    image: mariadb:10.3
+    container_name: mariadb_marvel
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: 123
+      MYSQL_DATABASE: marvel_api
+
+  phpmyadmin_marvel_api:
+    image: phpmyadmin
+    container_name: phpmyadmin_marvel_api
+    restart: always
+    ports:
+      - 81:80
+    environment:
+      - PMA_ARBITRARY=1
+
+

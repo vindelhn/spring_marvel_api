@@ -10,7 +10,7 @@ Documentación Swagger:
 2) Utilizar autenticación basica en las llamadas a los endpoints
 > usuario: admin  password: admin
 
- 
+
 
 
 
@@ -18,13 +18,13 @@ Documentación Swagger:
 ### APIs endpoints
 GET http://localhost:8080/marvel/api/v1/characters [lista los personajes]
 
-GET http://localhost:8080/marvel/api/v1/characters/byname [lista los persinajes por nombre]
+GET http://localhost:8080/marvel/api/v1/characters/byname [lista los personajes por nombre]
 
-GET http://localhost:8080/marvel/api/v1/characters/{characterId} [lista los persinajes por id]
+GET http://localhost:8080/marvel/api/v1/characters/{characterId} [lista los personajes por id]
 
-GET http://localhost:8080/marvel/api/v1/characters/{characterId}/description [descripcion de persinaje por id]
+GET http://localhost:8080/marvel/api/v1/characters/{characterId}/description [descripcion de personajes por id]
 
-GET http://localhost:8080/marvel/api/v1/characters/{characterId}/comics [listado de comics de persinaje por id]
+GET http://localhost:8080/marvel/api/v1/characters/{characterId}/comics [listado de comics de personajes por id]
 
 GET http://localhost:8080/marvel/api/v1/characters/{characterId}/fullcomics [listado de todos comics de persinaje por id]
 

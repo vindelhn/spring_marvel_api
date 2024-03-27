@@ -30,7 +30,7 @@ GET http://localhost:8080/marvel/api/v1/characters/{characterId}/description [de
 
 GET http://localhost:8080/marvel/api/v1/characters/{characterId}/comics [listado de comics de personajes por id]
 
-GET http://localhost:8080/marvel/api/v1/characters/{characterId}/fullcomics [listado de todos comics de persinaje por id]
+GET http://localhost:8080/marvel/api/v1/characters/{characterId}/fullcomics [listado de todos comics de personajes por id]
 
 GET http://localhost:8080/marvel/api/v1/comics/{comicId} [listado comics por id]
 

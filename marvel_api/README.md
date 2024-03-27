@@ -1,6 +1,10 @@
 # Sopring Boot MarvelAPI + MySQL + Docker
 
 Documentación Swagger:
+>  [https://developer.marvel.com/docs](https://developer.marvel.com/docs)
+
+
+Documentación Swagger:
 >  [http://localhost:8080/swagger-ui/index.html#](http://localhost:8080/swagger-ui/index.html#)
 
 
@@ -10,7 +14,7 @@ Documentación Swagger:
 2) Utilizar autenticación basica en las llamadas a los endpoints
 > usuario: admin  password: admin
 
- 
+
 
 
 
@@ -18,13 +22,13 @@ Documentación Swagger:
 ### APIs endpoints
 GET http://localhost:8080/marvel/api/v1/characters [lista los personajes]
 
-GET http://localhost:8080/marvel/api/v1/characters/byname [lista los personajes por nombre]
+GET http://localhost:8080/marvel/api/v1/characters/byname [lista los personages por nombre]
 
-GET http://localhost:8080/marvel/api/v1/characters/{characterId} [lista los personajes por id]
+GET http://localhost:8080/marvel/api/v1/characters/{characterId} [lista los personages por id]
 
-GET http://localhost:8080/marvel/api/v1/characters/{characterId}/description [descripcion de personajes por id]
+GET http://localhost:8080/marvel/api/v1/characters/{characterId}/description [descripcion de personages por id]
 
-GET http://localhost:8080/marvel/api/v1/characters/{characterId}/comics [listado de comics de personajes por id]
+GET http://localhost:8080/marvel/api/v1/characters/{characterId}/comics [listado de comics de personages por id]
 
 GET http://localhost:8080/marvel/api/v1/characters/{characterId}/fullcomics [listado de todos comics de persinaje por id]
 

@@ -1,6 +1,6 @@
 # Sopring Boot MarvelAPI + MySQL + Docker
 
-Documentación Swagger:
+Documentación Marvel:
 >  [https://developer.marvel.com/docs](https://developer.marvel.com/docs)
 
 
